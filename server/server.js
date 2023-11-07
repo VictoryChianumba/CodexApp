@@ -6,7 +6,7 @@ import 'dotenv/config';
 
 // import { default as dotenv }from 'dotenv'
 // dotenv.config()
-// console.log()
+// console.log(process.env.OPENAI_API_KEY)
 
  
 const openai = new OpenAI({

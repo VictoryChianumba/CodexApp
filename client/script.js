@@ -82,7 +82,7 @@ const handleSubmit = async(e) => {
 
     // fetch the message from the server and send it to the bot
 
-    const response = await fetch('http://localhost:3000', {
+    const response = await fetch('https://vdc-codex-ai.onrender.com', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
